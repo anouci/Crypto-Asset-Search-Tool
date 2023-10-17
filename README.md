@@ -1,6 +1,6 @@
 # Crypto Asset Search Tool 🪙
 
-Create an easy and useful tool to quickly find detailed information about any crypto asset.
+Find and learn about any crypto asset, just like you'd use Google to search the web.
 
 ![Mobula Logo](https://i.imgur.com/YI8M066.png)
 
@@ -17,54 +17,54 @@ Create an easy and useful tool to quickly find detailed information about any cr
 
 ## Features ✨
 
-- **Fast Search:** Look up any crypto asset in Mobula's database quickly.
-- **Detailed Asset Info:** Get important details and history about the assets you find.
-- **User-friendly:** Easy to use, even if you're new to crypto.
+- **Fast Search:** Efficiently query Mobula's database.
+- **Detailed Asset Info:** Access a wealth of information about the assets.
+- **User-friendly Interface:** Designed for ease of use, irrespective of your crypto expertise.
 
 ---
 
 ## Usage 💡
 
-Perfect for both newbies and pros in the crypto world. Use the tool to search for a crypto asset's name or details, and get all the info you need in return.
+Ideal for both crypto novices and veterans. Use this tool to search for a crypto asset's name or details and receive comprehensive data in return.
 
 ---
 
 ## Quick Guide 🚀
 
-### Building with Node.js:
+### Building with [Node.js](https://nodejs.org/):
 
-1. **Start a Node.js Project:**
-   - Get Node.js and npm.
-   - Begin a new project:
-     ```
+1. **Initiate a Node.js Project:**
+   - Download and install [Node.js](https://nodejs.org/) and npm.
+   - Start a new project:
+     ```bash
      npm init -y
      ```
 
-2. **Make the Search Work:**
-   - Get data from the Mobula API based on what users look for.
-   - Think about using tools like Express.js for the backend and maybe React or Vue for showing things on the screen.
+2. **Set Up the Search Functionality:**
+   - Fetch data from the Mobula API based on user queries.
+   - Consider using frameworks like [Express.js](https://expressjs.com/) for the backend and options like [React](https://reactjs.org/) or [Vue.js](https://vuejs.org/) for the frontend.
 
-3. **Show the Search Results:**
-   - Make a results page that gives users all the asset info they want.
-   - If there are lots of search results, maybe add pages or filters to make it easier to see.
+3. **Display the Search Outcomes:**
+   - Design a results page presenting the comprehensive asset information.
+   - For extensive search results, incorporate pagination or filtering options for better user experience.
 
-4. **Make it Nice for Users:**
-   - Remember what users search for most and show them results faster next time.
-   - Add a dropdown with suggestions for popular or recent searches.
+4. **Enhance User Interactivity:**
+   - Cache frequent user searches to facilitate faster subsequent lookups.
+   - Integrate a dropdown for popular or recent search suggestions.
 
 ---
 
 ## API Reference 🌐
 
-This tool mainly uses the Mobula API's search endpoint:
+Primarily, this tool utilizes the Search endpoint of the Mobula API:
 
 - **Search Asset:** 
   - **Method:** GET
   - **Endpoint:** `https://api.app-mobula.com/api/1/search`
-  - **Details:** Use this to find a specific asset in Mobula's big database.
+  - **Details:** This endpoint facilitates the search for specific assets within Mobula's database.
 
-More about this can be found in the [Mobula API guide](https://developer.mobula.fi/reference/searchcryptodata).
+For further details, delve into the [Mobula API documentation](https://developer.mobula.fi/reference/searchcryptodata).
 
 ---
 
-Built to make crypto searching simple, using the [Mobula API](https://developer.mobula.fi/).
+Designed with ❤️ making the world of crypto assets more accessible, powered by [Mobula API](https://developer.mobula.fi/)
